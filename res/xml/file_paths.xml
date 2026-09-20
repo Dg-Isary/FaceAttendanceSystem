@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 分享用的文件范围: 只暴露缓存目录下的 exports (点名表/报告) 和人脸库图片 -->
+<paths>
+    <cache-path name="exports" path="exports/" />
+    <files-path name="photos" path="photo/" />
+    <files-path name="logs" path="logs/" />
+</paths>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">人脸识别</string>
+    <!-- 系统「打开方式」里显示的名字 -->
+    <string name="import_label">导入到人脸识别</string>
+</resources>

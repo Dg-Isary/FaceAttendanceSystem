@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        浅色主题。
+        注意：targetSdk 35+ 在 Android 15+ 上强制「边到边」，statusBarColor / navigationBarColor
+        会被忽略（状态栏透明，露出的是 Compose 画的内容）；Android 14 及以下这两个属性仍然生效，
+        所以这里按明暗两套资源分别给色，并显式声明图标明暗，避免"白底配白图标"看不清。
+        窗口底色也改成浅色，避免冷启动/切页时闪一下黑边。
+    -->
+    <style name="Theme.FaceDemo" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#F6F7F9</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>
